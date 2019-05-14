@@ -17,11 +17,12 @@
 <script>
 import Topbar from "./components/generics/Topbar.vue";
 import Navigation from "./components/generics/Navigation.vue";
+import AuthenticationService from "./services/authenticationService.js"
 export default {
-  components: {
-    Navigation,
-    Topbar
-  }
+	components: {
+		Navigation,
+		Topbar
+	},
 };
 </script>
 
